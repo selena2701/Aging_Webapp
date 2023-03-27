@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/kms-imagefinder",
+            "outputPath": "dist/aging",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -88,10 +88,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "kms-imagefinder:build:production"
+              "browserTarget": "aging:build:production"
             },
             "development": {
-              "browserTarget": "kms-imagefinder:build:development"
+              "browserTarget": "aging:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,7 +99,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "kms-imagefinder:build"
+            "browserTarget": "aging:build"
           }
         },
         "test": {
@@ -122,5 +122,5 @@
       }
     }
   },
-  "defaultProject": "kms-imagefinder"
+  "defaultProject": "aging"
 }
