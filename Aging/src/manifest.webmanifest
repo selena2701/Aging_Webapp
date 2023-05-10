@@ -1,6 +1,6 @@
 {
-  "name": "kms-imagefinder",
-  "short_name": "kms-imagefinder",
+  "name": "face-aging",
+  "short_name": "face-aging",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
